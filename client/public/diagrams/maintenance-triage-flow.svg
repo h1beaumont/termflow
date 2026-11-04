@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 350" class="w-full h-auto">
+  <defs>
+    <style>
+      .box { fill: #f8fafc; stroke: #3b82f6; stroke-width: 2; }
+      .box-auto { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+      .text { fill: #1e293b; font-family: system-ui, sans-serif; font-size: 13px; font-weight: 500; }
+      .subtext { fill: #64748b; font-family: system-ui, sans-serif; font-size: 10px; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .badge { fill: #22c55e; font-family: system-ui, sans-serif; font-size: 9px; fill: white; font-weight: 600; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Report -->
+  <rect x="10" y="60" width="135" height="85" rx="8" class="box-auto"/>
+  <text x="78" y="90" text-anchor="middle" class="text">Request</text>
+  <text x="78" y="108" text-anchor="middle" class="text">Capture</text>
+  <text x="78" y="125" text-anchor="middle" class="subtext">All channels</text>
+  <rect x="53" y="132" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="78" y="142" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- AI Triage -->
+  <rect x="165" y="60" width="135" height="85" rx="8" class="box-auto"/>
+  <text x="233" y="90" text-anchor="middle" class="text">AI Triage</text>
+  <text x="233" y="108" text-anchor="middle" class="subtext">Categorise issue</text>
+  <text x="233" y="125" text-anchor="middle" class="subtext">Type & urgency</text>
+  <rect x="208" y="132" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="233" y="142" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Prioritise -->
+  <rect x="320" y="60" width="135" height="85" rx="8" class="box-auto"/>
+  <text x="388" y="90" text-anchor="middle" class="text">Prioritise</text>
+  <text x="388" y="108" text-anchor="middle" class="subtext">Emergency/Urgent</text>
+  <text x="388" y="125" text-anchor="middle" class="subtext">Routine</text>
+  <rect x="363" y="132" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="388" y="142" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Route -->
+  <rect x="475" y="60" width="135" height="85" rx="8" class="box-auto"/>
+  <text x="543" y="90" text-anchor="middle" class="text">Auto Route</text>
+  <text x="543" y="108" text-anchor="middle" class="subtext">Assign to team</text>
+  <text x="543" y="125" text-anchor="middle" class="subtext">or contractor</text>
+  <rect x="518" y="132" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="543" y="142" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Track -->
+  <rect x="630" y="60" width="135" height="85" rx="8" class="box-auto"/>
+  <text x="698" y="90" text-anchor="middle" class="text">SLA Tracking</text>
+  <text x="698" y="108" text-anchor="middle" class="subtext">Response time</text>
+  <text x="698" y="125" text-anchor="middle" class="subtext">Resolution time</text>
+  <rect x="673" y="132" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="698" y="142" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Communicate -->
+  <rect x="785" y="60" width="135" height="85" rx="8" class="box-auto"/>
+  <text x="853" y="90" text-anchor="middle" class="text">Tenant Comms</text>
+  <text x="853" y="108" text-anchor="middle" class="subtext">Updates & ETA</text>
+  <text x="853" y="125" text-anchor="middle" class="subtext">Acknowledgment</text>
+  <rect x="828" y="132" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="853" y="142" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Close -->
+  <rect x="940" y="60" width="135" height="85" rx="8" class="box-auto"/>
+  <text x="1008" y="90" text-anchor="middle" class="text">Close & Survey</text>
+  <text x="1008" y="108" text-anchor="middle" class="subtext">Confirmation</text>
+  <text x="1008" y="125" text-anchor="middle" class="subtext">Satisfaction</text>
+  <rect x="983" y="132" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="1008" y="142" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Arrows -->
+  <path d="M 145 102 L 165 102" class="arrow"/>
+  <path d="M 300 102 L 320 102" class="arrow"/>
+  <path d="M 455 102 L 475 102" class="arrow"/>
+  <path d="M 610 102 L 630 102" class="arrow"/>
+  <path d="M 765 102 L 785 102" class="arrow"/>
+  <path d="M 920 102 L 940 102" class="arrow"/>
+  
+  <!-- Stats -->
+  <text x="550" y="230" text-anchor="middle" style="fill: #3b82f6; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600;">Time Saved: 2hrs/day → 20 min oversight | 95% on-time | 4.6/5 satisfaction</text>
+</svg>

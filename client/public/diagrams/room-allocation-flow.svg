@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" class="w-full h-auto">
+  <defs>
+    <style>
+      .box { fill: #f8fafc; stroke: #3b82f6; stroke-width: 2; }
+      .box-auto { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+      .text { fill: #1e293b; font-family: system-ui, sans-serif; font-size: 13px; font-weight: 500; }
+      .subtext { fill: #64748b; font-family: system-ui, sans-serif; font-size: 10px; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .badge { fill: #22c55e; font-family: system-ui, sans-serif; font-size: 9px; fill: white; font-weight: 600; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Preferences -->
+  <rect x="10" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="80" y="90" text-anchor="middle" class="text">Preference</text>
+  <text x="80" y="108" text-anchor="middle" class="text">Collection</text>
+  <text x="80" y="125" text-anchor="middle" class="subtext">Room type, floor</text>
+  <text x="80" y="140" text-anchor="middle" class="subtext">Groups, amenities</text>
+  <rect x="55" y="147" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="80" y="157" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Matching -->
+  <rect x="175" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="245" y="90" text-anchor="middle" class="text">AI Matching</text>
+  <text x="245" y="108" text-anchor="middle" class="text">Algorithm</text>
+  <text x="245" y="125" text-anchor="middle" class="subtext">Preferences +</text>
+  <text x="245" y="140" text-anchor="middle" class="subtext">Availability + Fairness</text>
+  <rect x="220" y="147" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="245" y="157" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Propose -->
+  <rect x="340" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="410" y="90" text-anchor="middle" class="text">Draft</text>
+  <text x="410" y="108" text-anchor="middle" class="text">Allocation</text>
+  <text x="410" y="125" text-anchor="middle" class="subtext">Review dashboard</text>
+  <text x="410" y="140" text-anchor="middle" class="subtext">Optimised match</text>
+  <rect x="385" y="147" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="410" y="157" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Approve -->
+  <rect x="505" y="60" width="140" height="90" rx="8" class="box"/>
+  <text x="575" y="90" text-anchor="middle" class="text">Landlord</text>
+  <text x="575" y="108" text-anchor="middle" class="text">Approval</text>
+  <text x="575" y="125" text-anchor="middle" class="subtext">Review & override</text>
+  <text x="575" y="140" text-anchor="middle" class="subtext">Manual adjustments</text>
+  <rect x="550" y="147" width="50" height="15" rx="8" fill="#f59e0b"/>
+  <text x="575" y="157" text-anchor="middle" class="badge">MANUAL</text>
+  
+  <!-- Notify -->
+  <rect x="670" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="740" y="90" text-anchor="middle" class="text">Tenant</text>
+  <text x="740" y="108" text-anchor="middle" class="text">Notifications</text>
+  <text x="740" y="125" text-anchor="middle" class="subtext">Room assignment</text>
+  <text x="740" y="140" text-anchor="middle" class="subtext">Flatmate intros</text>
+  <rect x="715" y="147" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="740" y="157" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Confirm -->
+  <rect x="835" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="905" y="90" text-anchor="middle" class="text">Confirmation</text>
+  <text x="905" y="108" text-anchor="middle" class="text">& Contracts</text>
+  <text x="905" y="125" text-anchor="middle" class="subtext">Auto-generate</text>
+  <text x="905" y="140" text-anchor="middle" class="subtext">E-signature</text>
+  <rect x="880" y="147" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="905" y="157" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Arrows -->
+  <path d="M 150 105 L 175 105" class="arrow"/>
+  <path d="M 315 105 L 340 105" class="arrow"/>
+  <path d="M 480 105 L 505 105" class="arrow"/>
+  <path d="M 645 105 L 670 105" class="arrow"/>
+  <path d="M 810 105 L 835 105" class="arrow"/>
+  
+  <!-- Stats -->
+  <text x="500" y="240" text-anchor="middle" style="fill: #3b82f6; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600;">Time Saved: 8hrs → 1hr review | 87% first-choice allocation | 4.2/5 satisfaction</text>
+</svg>

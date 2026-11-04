@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" class="w-full h-auto">
+  <defs>
+    <style>
+      .box { fill: #f8fafc; stroke: #3b82f6; stroke-width: 2; }
+      .box-auto { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+      .text { fill: #1e293b; font-family: system-ui, sans-serif; font-size: 13px; font-weight: 500; }
+      .subtext { fill: #64748b; font-family: system-ui, sans-serif; font-size: 10px; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .badge { fill: #22c55e; font-family: system-ui, sans-serif; font-size: 9px; fill: white; font-weight: 600; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Pre-Due -->
+  <rect x="10" y="40" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="80" y="70" text-anchor="middle" class="text">Pre-Due</text>
+  <text x="80" y="88" text-anchor="middle" class="text">Reminders</text>
+  <text x="80" y="105" text-anchor="middle" class="subtext">-7, -3, -1 days</text>
+  <text x="80" y="120" text-anchor="middle" class="subtext">Friendly tone</text>
+  <rect x="55" y="127" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="80" y="137" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Overdue -->
+  <rect x="175" y="40" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="245" y="70" text-anchor="middle" class="text">Overdue</text>
+  <text x="245" y="88" text-anchor="middle" class="text">Notifications</text>
+  <text x="245" y="105" text-anchor="middle" class="subtext">Day 1, 3, 7</text>
+  <text x="245" y="120" text-anchor="middle" class="subtext">Firm tone</text>
+  <rect x="220" y="127" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="245" y="137" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Payment Link -->
+  <rect x="340" y="40" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="410" y="70" text-anchor="middle" class="text">Payment Link</text>
+  <text x="410" y="88" text-anchor="middle" class="text">Generation</text>
+  <text x="410" y="105" text-anchor="middle" class="subtext">Stripe</text>
+  <text x="410" y="120" text-anchor="middle" class="subtext">Personalised amount</text>
+  <rect x="385" y="127" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="410" y="137" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Escalate -->
+  <rect x="505" y="40" width="140" height="90" rx="8" class="box"/>
+  <text x="575" y="70" text-anchor="middle" class="text">Escalate to</text>
+  <text x="575" y="88" text-anchor="middle" class="text">Manager</text>
+  <text x="575" y="105" text-anchor="middle" class="subtext">Day 14</text>
+  <text x="575" y="120" text-anchor="middle" class="subtext">Full history</text>
+  <rect x="550" y="127" width="50" height="15" rx="8" fill="#f59e0b"/>
+  <text x="575" y="137" text-anchor="middle" class="badge">MANUAL</text>
+  
+  <!-- Payment Plan -->
+  <rect x="670" y="40" width="140" height="90" rx="8" class="box"/>
+  <text x="740" y="70" text-anchor="middle" class="text">Payment Plan</text>
+  <text x="740" y="88" text-anchor="middle" class="text">Negotiation</text>
+  <text x="740" y="105" text-anchor="middle" class="subtext">Automated options</text>
+  <text x="740" y="120" text-anchor="middle" class="subtext">Approval workflow</text>
+  <rect x="715" y="127" width="50" height="15" rx="8" fill="#f59e0b"/>
+  <text x="740" y="137" text-anchor="middle" class="badge">MANUAL</text>
+  
+  <!-- Legal -->
+  <rect x="835" y="40" width="140" height="90" rx="8" class="box"/>
+  <text x="905" y="70" text-anchor="middle" class="text">Legal/Eviction</text>
+  <text x="905" y="88" text-anchor="middle" class="text">Workflow</text>
+  <text x="905" y="105" text-anchor="middle" class="subtext">Day 30+</text>
+  <text x="905" y="120" text-anchor="middle" class="subtext">Landlord decision</text>
+  <rect x="880" y="127" width="50" height="15" rx="8" fill="#f59e0b"/>
+  <text x="905" y="137" text-anchor="middle" class="badge">MANUAL</text>
+  
+  <!-- Arrows -->
+  <path d="M 150 85 L 175 85" class="arrow"/>
+  <path d="M 315 85 L 340 85" class="arrow"/>
+  <path d="M 480 85 L 505 85" class="arrow"/>
+  <path d="M 645 85 L 670 85" class="arrow"/>
+  <path d="M 810 85 L 835 85" class="arrow"/>
+  
+  <!-- Timeline labels -->
+  <text x="80" y="180" text-anchor="middle" style="fill: #22c55e; font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600;">Days -7 to 0</text>
+  <text x="245" y="180" text-anchor="middle" style="fill: #22c55e; font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600;">Days 1-7</text>
+  <text x="410" y="180" text-anchor="middle" style="fill: #22c55e; font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600;">Immediate</text>
+  <text x="575" y="180" text-anchor="middle" style="fill: #f59e0b; font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600;">Day 14</text>
+  <text x="740" y="180" text-anchor="middle" style="fill: #f59e0b; font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600;">Day 14+</text>
+  <text x="905" y="180" text-anchor="middle" style="fill: #f59e0b; font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600;">Day 30+</text>
+  
+  <!-- Stats -->
+  <text x="500" y="260" text-anchor="middle" style="fill: #3b82f6; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600;">Time Saved: 6hrs/week → 30 min | 92% collection rate | £18k saved/year</text>
+</svg>

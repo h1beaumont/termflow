@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" class="w-full h-auto">
+  <defs>
+    <style>
+      .box { fill: #f8fafc; stroke: #3b82f6; stroke-width: 2; }
+      .box-auto { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+      .text { fill: #1e293b; font-family: system-ui, sans-serif; font-size: 13px; font-weight: 500; }
+      .subtext { fill: #64748b; font-family: system-ui, sans-serif; font-size: 11px; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .badge { fill: #22c55e; font-family: system-ui, sans-serif; font-size: 10px; fill: white; font-weight: 600; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Enquiry -->
+  <rect x="10" y="50" width="130" height="80" rx="8" class="box-auto"/>
+  <text x="75" y="80" text-anchor="middle" class="text">Enquiry Capture</text>
+  <text x="75" y="100" text-anchor="middle" class="subtext">All channels</text>
+  <rect x="50" y="110" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="75" y="121" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Viewing -->
+  <rect x="160" y="50" width="130" height="80" rx="8" class="box-auto"/>
+  <text x="225" y="80" text-anchor="middle" class="text">Viewing Booking</text>
+  <text x="225" y="100" text-anchor="middle" class="subtext">Calendar sync</text>
+  <rect x="200" y="110" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="225" y="121" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Application -->
+  <rect x="310" y="50" width="130" height="80" rx="8" class="box-auto"/>
+  <text x="375" y="80" text-anchor="middle" class="text">Application</text>
+  <text x="375" y="100" text-anchor="middle" class="subtext">Pre-filled</text>
+  <rect x="350" y="110" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="375" y="121" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- ID Check -->
+  <rect x="460" y="50" width="130" height="80" rx="8" class="box-auto"/>
+  <text x="525" y="75" text-anchor="middle" class="text">ID & Document</text>
+  <text x="525" y="93" text-anchor="middle" class="text">Collection</text>
+  <text x="525" y="109" text-anchor="middle" class="subtext">OCR extraction</text>
+  <rect x="500" y="115" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="525" y="126" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Contract -->
+  <rect x="610" y="50" width="130" height="80" rx="8" class="box-auto"/>
+  <text x="675" y="80" text-anchor="middle" class="text">Contract</text>
+  <text x="675" y="100" text-anchor="middle" class="subtext">E-signature</text>
+  <rect x="650" y="110" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="675" y="121" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Deposit -->
+  <rect x="760" y="50" width="130" height="80" rx="8" class="box-auto"/>
+  <text x="825" y="80" text-anchor="middle" class="text">Deposit</text>
+  <text x="825" y="100" text-anchor="middle" class="subtext">Stripe payment</text>
+  <rect x="800" y="110" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="825" y="121" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- RTR -->
+  <rect x="910" y="50" width="130" height="80" rx="8" class="box"/>
+  <text x="975" y="80" text-anchor="middle" class="text">Right-to-Rent</text>
+  <text x="975" y="100" text-anchor="middle" class="subtext">Landlord check</text>
+  <rect x="950" y="110" width="50" height="16" rx="8" fill="#f59e0b"/>
+  <text x="975" y="121" text-anchor="middle" class="badge">MANUAL</text>
+  
+  <!-- Keys -->
+  <rect x="1060" y="50" width="130" height="80" rx="8" class="box"/>
+  <text x="1125" y="85" text-anchor="middle" class="text">Keys Handover</text>
+  <text x="1125" y="105" text-anchor="middle" class="subtext">Move-in</text>
+  
+  <!-- Arrows -->
+  <path d="M 140 90 L 160 90" class="arrow"/>
+  <path d="M 290 90 L 310 90" class="arrow"/>
+  <path d="M 440 90 L 460 90" class="arrow"/>
+  <path d="M 590 90 L 610 90" class="arrow"/>
+  <path d="M 740 90 L 760 90" class="arrow"/>
+  <path d="M 890 90 L 910 90" class="arrow"/>
+  <path d="M 1040 90 L 1060 90" class="arrow"/>
+  
+  <!-- Timeline -->
+  <text x="600" y="200" text-anchor="middle" style="fill: #3b82f6; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600;">Average Timeline: 6 Days | Manual Time: 45 minutes (vs 12 hours manual)</text>
+</svg>

@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /leads
+Disallow: /viewings
+Disallow: /contracts
+Disallow: /analytics
+Disallow: /settings
+Disallow: /onboarding
+Disallow: /properties
+Disallow: /calendar
+Disallow: /billing
+
+Sitemap: https://termflow.co.uk/sitemap.xml

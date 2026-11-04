@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" class="w-full h-auto">
+  <defs>
+    <style>
+      .box { fill: #f8fafc; stroke: #3b82f6; stroke-width: 2; }
+      .box-auto { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+      .text { fill: #1e293b; font-family: system-ui, sans-serif; font-size: 12px; font-weight: 500; }
+      .subtext { fill: #64748b; font-family: system-ui, sans-serif; font-size: 10px; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .badge { fill: #22c55e; font-family: system-ui, sans-serif; font-size: 9px; fill: white; font-weight: 600; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Schedule -->
+  <rect x="10" y="50" width="125" height="85" rx="8" class="box-auto"/>
+  <text x="73" y="80" text-anchor="middle" class="text">Calendar</text>
+  <text x="73" y="96" text-anchor="middle" class="text">Setup</text>
+  <text x="73" y="112" text-anchor="middle" class="subtext">Auto-schedule</text>
+  <rect x="48" y="119" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="73" y="129" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Notify -->
+  <rect x="155" y="50" width="125" height="85" rx="8" class="box-auto"/>
+  <text x="218" y="80" text-anchor="middle" class="text">Tenant</text>
+  <text x="218" y="96" text-anchor="middle" class="text">Notification</text>
+  <text x="218" y="112" text-anchor="middle" class="subtext">14 days notice</text>
+  <rect x="193" y="119" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="218" y="129" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Confirm -->
+  <rect x="300" y="50" width="125" height="85" rx="8" class="box-auto"/>
+  <text x="363" y="80" text-anchor="middle" class="text">Confirmation</text>
+  <text x="363" y="96" text-anchor="middle" class="subtext">Self-service</text>
+  <text x="363" y="112" text-anchor="middle" class="subtext">Reschedule</text>
+  <rect x="338" y="119" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="363" y="129" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Conduct -->
+  <rect x="445" y="50" width="125" height="85" rx="8" class="box"/>
+  <text x="508" y="80" text-anchor="middle" class="text">Conduct</text>
+  <text x="508" y="96" text-anchor="middle" class="text">Inspection</text>
+  <text x="508" y="112" text-anchor="middle" class="subtext">Digital checklist</text>
+  <rect x="483" y="119" width="50" height="15" rx="8" fill="#f59e0b"/>
+  <text x="508" y="129" text-anchor="middle" class="badge">MANUAL</text>
+  
+  <!-- Document -->
+  <rect x="590" y="50" width="125" height="85" rx="8" class="box-auto"/>
+  <text x="653" y="80" text-anchor="middle" class="text">Photo</text>
+  <text x="653" y="96" text-anchor="middle" class="text">Documentation</text>
+  <text x="653" y="112" text-anchor="middle" class="subtext">Mobile app</text>
+  <rect x="628" y="119" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="653" y="129" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Report -->
+  <rect x="735" y="50" width="125" height="85" rx="8" class="box-auto"/>
+  <text x="798" y="80" text-anchor="middle" class="text">Report</text>
+  <text x="798" y="96" text-anchor="middle" class="text">Generation</text>
+  <text x="798" y="112" text-anchor="middle" class="subtext">PDF to all</text>
+  <rect x="773" y="119" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="798" y="129" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Issues -->
+  <rect x="880" y="50" width="125" height="85" rx="8" class="box-auto"/>
+  <text x="943" y="80" text-anchor="middle" class="text">Maintenance</text>
+  <text x="943" y="96" text-anchor="middle" class="text">Issues</text>
+  <text x="943" y="112" text-anchor="middle" class="subtext">Auto-populate</text>
+  <rect x="918" y="119" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="943" y="129" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Follow-up -->
+  <rect x="1025" y="50" width="125" height="85" rx="8" class="box-auto"/>
+  <text x="1088" y="80" text-anchor="middle" class="text">Follow-up</text>
+  <text x="1088" y="96" text-anchor="middle" class="text">Tracking</text>
+  <text x="1088" y="112" text-anchor="middle" class="subtext">Resolution</text>
+  <rect x="1063" y="119" width="50" height="15" rx="8" fill="#22c55e"/>
+  <text x="1088" y="129" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Arrows -->
+  <path d="M 135 92 L 155 92" class="arrow"/>
+  <path d="M 280 92 L 300 92" class="arrow"/>
+  <path d="M 425 92 L 445 92" class="arrow"/>
+  <path d="M 570 92 L 590 92" class="arrow"/>
+  <path d="M 715 92 L 735 92" class="arrow"/>
+  <path d="M 860 92 L 880 92" class="arrow"/>
+  <path d="M 1005 92 L 1025 92" class="arrow"/>
+  
+  <!-- Stats -->
+  <text x="600" y="220" text-anchor="middle" style="fill: #3b82f6; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600;">Time Saved: 3hrs → 40 min | 95% completion rate | 2-day report turnaround</text>
+</svg>

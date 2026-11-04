@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" class="w-full h-auto">
+  <defs>
+    <style>
+      .box { fill: #f8fafc; stroke: #3b82f6; stroke-width: 2; }
+      .box-auto { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+      .text { fill: #1e293b; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 500; }
+      .subtext { fill: #64748b; font-family: system-ui, sans-serif; font-size: 11px; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .badge { fill: #22c55e; font-family: system-ui, sans-serif; font-size: 10px; fill: white; font-weight: 600; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Request -->
+  <rect x="10" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="80" y="95" text-anchor="middle" class="text">Document</text>
+  <text x="80" y="115" text-anchor="middle" class="text">Request</text>
+  <text x="80" y="133" text-anchor="middle" class="subtext">Triggered by stage</text>
+  <rect x="55" y="140" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="80" y="151" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Upload -->
+  <rect x="175" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="245" y="95" text-anchor="middle" class="text">Multi-Channel</text>
+  <text x="245" y="115" text-anchor="middle" class="text">Upload</text>
+  <text x="245" y="133" text-anchor="middle" class="subtext">WhatsApp/Email/Web</text>
+  <rect x="220" y="140" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="245" y="151" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- OCR -->
+  <rect x="340" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="410" y="95" text-anchor="middle" class="text">OCR Extraction</text>
+  <text x="410" y="115" text-anchor="middle" class="subtext">Google Cloud Vision</text>
+  <text x="410" y="133" text-anchor="middle" class="subtext">98% accuracy</text>
+  <rect x="385" y="140" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="410" y="151" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Validation -->
+  <rect x="505" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="575" y="95" text-anchor="middle" class="text">Validation</text>
+  <text x="575" y="115" text-anchor="middle" class="subtext">Expiry dates</text>
+  <text x="575" y="133" text-anchor="middle" class="subtext">Authenticity checks</text>
+  <rect x="550" y="140" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="575" y="151" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- Storage -->
+  <rect x="670" y="60" width="140" height="90" rx="8" class="box-auto"/>
+  <text x="740" y="95" text-anchor="middle" class="text">Secure Storage</text>
+  <text x="740" y="115" text-anchor="middle" class="subtext">Encrypted</text>
+  <text x="740" y="133" text-anchor="middle" class="subtext">GDPR-compliant</text>
+  <rect x="715" y="140" width="50" height="16" rx="8" fill="#22c55e"/>
+  <text x="740" y="151" text-anchor="middle" class="badge">AUTO</text>
+  
+  <!-- RTR -->
+  <rect x="835" y="60" width="140" height="90" rx="8" class="box"/>
+  <text x="905" y="95" text-anchor="middle" class="text">RTR Check</text>
+  <text x="905" y="115" text-anchor="middle" class="text">Trigger</text>
+  <text x="905" y="133" text-anchor="middle" class="subtext">Workflow starts</text>
+  <rect x="880" y="140" width="50" height="16" rx="8" fill="#f59e0b"/>
+  <text x="905" y="151" text-anchor="middle" class="badge">MANUAL</text>
+  
+  <!-- Arrows -->
+  <path d="M 150 105 L 175 105" class="arrow"/>
+  <path d="M 315 105 L 340 105" class="arrow"/>
+  <path d="M 480 105 L 505 105" class="arrow"/>
+  <path d="M 645 105 L 670 105" class="arrow"/>
+  <path d="M 810 105 L 835 105" class="arrow"/>
+  
+  <!-- Stats -->
+  <text x="500" y="240" text-anchor="middle" style="fill: #3b82f6; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600;">Time Saved: 4 hours → 15 minutes | OCR Accuracy: 98% | Turnaround: 24 hours</text>
+</svg>
